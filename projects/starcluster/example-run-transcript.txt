@@ -1,0 +1,312 @@
+Script started on Thu 25 Jun 2015 08:06:36 PM EDT
+]0;kali@kali-HP: ~/Projects/starcluster[01;31mkali@kali-HP[00m:[01;34m~/Projects/starcluster[00m$ time ./starcluster-example.sh 
+Start starcluster example script
+Linux kali-HP 3.18.0-kali3-686-pae #1 SMP Debian 3.18.6-1~kali2 (2015-03-02) i686 GNU/Linux
+Thu Jun 25 20:06:46 EDT 2015
+----------------------------------------------
+Show any instances in us-east-1 and us-west-2:
+us-east-1
+us-west-2
+INSTANCE	i-1ad9692f	us-west-2a	running	16	ok	ok	active	
+SYSTEMSTATUS	reachability	passed	
+INSTANCESTATUS	reachability	passed	
+----------------------------------------------
+----------------------------------------------
+Check starcluster:
+StarCluster - (http://star.mit.edu/cluster) (v. 0.95.6)
+Software Tools for Academics and Researchers (STAR)
+Please submit bug reports to starcluster@mit.edu
+
+*** WARNING - Setting 'AWS_REGION_NAME' from environment...
+*** WARNING - Setting 'AWS_REGION_HOST' from environment...
+*** WARNING - Setting 'AWS_SECRET_ACCESS_KEY' from environment...
+*** WARNING - Setting 'AWS_ACCESS_KEY_ID' from environment...
+*** WARNING - Setting 'AWS_USER_ID' from environment...
+name:  us-west-2
+endpoint:  ec2.us-west-2.amazonaws.com
+
+name:  us-west-1
+endpoint:  ec2.us-west-1.amazonaws.com
+
+name:  us-east-1
+endpoint:  ec2.us-east-1.amazonaws.com
+
+name:  sa-east-1
+endpoint:  ec2.sa-east-1.amazonaws.com
+
+name:  eu-west-1
+endpoint:  ec2.eu-west-1.amazonaws.com
+
+name:  eu-central-1
+endpoint:  ec2.eu-central-1.amazonaws.com
+
+name:  ap-southeast-2
+endpoint:  ec2.ap-southeast-2.amazonaws.com
+
+name:  ap-southeast-1
+endpoint:  ec2.ap-southeast-1.amazonaws.com
+
+name:  ap-northeast-1
+endpoint:  ec2.ap-northeast-1.amazonaws.com
+
+StarCluster - (http://star.mit.edu/cluster) (v. 0.95.6)
+Software Tools for Academics and Researchers (STAR)
+Please submit bug reports to starcluster@mit.edu
+
+*** WARNING - Setting 'AWS_REGION_NAME' from environment...
+*** WARNING - Setting 'AWS_REGION_HOST' from environment...
+*** WARNING - Setting 'AWS_SECRET_ACCESS_KEY' from environment...
+*** WARNING - Setting 'AWS_ACCESS_KEY_ID' from environment...
+*** WARNING - Setting 'AWS_USER_ID' from environment...
+>>> No instances found
+----------------------------------------------
+----------------------------------------------
+Start a cluster:
+StarCluster - (http://star.mit.edu/cluster) (v. 0.95.6)
+Software Tools for Academics and Researchers (STAR)
+Please submit bug reports to starcluster@mit.edu
+
+*** WARNING - Setting 'AWS_REGION_NAME' from environment...
+*** WARNING - Setting 'AWS_REGION_HOST' from environment...
+*** WARNING - Setting 'AWS_SECRET_ACCESS_KEY' from environment...
+*** WARNING - Setting 'AWS_ACCESS_KEY_ID' from environment...
+*** WARNING - Setting 'AWS_USER_ID' from environment...
+>>> Using default cluster template: smallcluster
+>>> Validating cluster template settings...
+>>> Cluster template settings are valid
+>>> Starting cluster...
+>>> Launching a 2-node cluster...
+>>> Creating security group @sc-mypicluster...
+Reservation:r-d0e7e52b
+>>> Waiting for instances to propagate...
+0/2 |                                                                  |   0%  2/2 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 100%  
+>>> Waiting for cluster to come up... (updating every 30s)
+>>> Waiting for all nodes to be in a 'running' state...
+0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  2/2 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 100%  
+>>> Waiting for SSH to come up on all nodes...
+0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  1/2 |\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\                                 |  50%  1/2 ||||||||||||||||||||||||||||||||||                                 |  50%  1/2 |/////////////////////////////////                                 |  50%  2/2 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 100%  
+>>> Waiting for cluster to come up took 2.041 mins
+>>> The master node is ec2-54-152-2-72.compute-1.amazonaws.com
+>>> Configuring cluster...
+>>> Running plugin starcluster.clustersetup.DefaultClusterSetup
+>>> Configuring hostnames...
+0/2 |                                                                  |   0%  2/2 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 100%  
+>>> Creating cluster user: sgeadmin (uid: 1001, gid: 1001)
+0/2 |                                                                  |   0%  1/2 |---------------------------------                                 |  50%  2/2 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 100%  
+>>> Configuring scratch space for user(s): sgeadmin
+0/2 |                                                                  |   0%  2/2 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 100%  
+>>> Configuring /etc/hosts on each node
+0/2 |                                                                  |   0%  0/2 |                                                                  |   0%  2/2 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 100%  
+>>> Starting NFS server on master
+>>> Configuring NFS exports path(s):
+/home
+>>> Mounting all NFS export path(s) on 1 worker node(s)
+0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  1/1 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 100%  
+>>> Setting up NFS took 0.260 mins
+>>> Configuring passwordless ssh for root
+>>> Configuring passwordless ssh for sgeadmin
+>>> Running plugin starcluster.plugins.sge.SGEPlugin
+>>> Configuring SGE...
+>>> Configuring NFS exports path(s):
+/opt/sge6
+>>> Mounting all NFS export path(s) on 1 worker node(s)
+0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  1/1 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 100%  
+>>> Setting up NFS took 0.069 mins
+>>> Installing Sun Grid Engine...
+0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  0/1 |                                                                  |   0%  1/1 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 100%  
+>>> Creating SGE parallel environment 'orte'
+0/2 |                                                                  |   0%  2/2 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 100%  
+>>> Adding parallel environment 'orte' to queue 'all.q'
+>>> Configuring cluster took 2.079 mins
+>>> Starting cluster took 4.176 mins
+
+The cluster is now ready to use. To login to the master node
+as root, run:
+
+    $ starcluster sshmaster mypicluster
+
+If you're having issues with the cluster you can reboot the
+instances and completely reconfigure the cluster from
+scratch using:
+
+    $ starcluster restart mypicluster
+
+When you're finished using the cluster and wish to terminate
+it and stop paying for service:
+
+    $ starcluster terminate mypicluster
+
+Alternatively, if the cluster uses EBS instances, you can
+use the 'stop' command to shutdown all nodes and put them
+into a 'stopped' state preserving the EBS volumes backing
+the nodes:
+
+    $ starcluster stop mypicluster
+
+WARNING: Any data stored in ephemeral storage (usually /mnt)
+will be lost!
+
+You can activate a 'stopped' cluster by passing the -x
+option to the 'start' command:
+
+    $ starcluster start -x mypicluster
+
+This will start all 'stopped' nodes and reconfigure the
+cluster.
+
+real	4m12.404s
+user	0m5.500s
+sys	0m0.272s
+----------------------------------------------
+----------------------------------------------
+Show running clusters:
+StarCluster - (http://star.mit.edu/cluster) (v. 0.95.6)
+Software Tools for Academics and Researchers (STAR)
+Please submit bug reports to starcluster@mit.edu
+
+*** WARNING - Setting 'AWS_REGION_NAME' from environment...
+*** WARNING - Setting 'AWS_REGION_HOST' from environment...
+*** WARNING - Setting 'AWS_SECRET_ACCESS_KEY' from environment...
+*** WARNING - Setting 'AWS_ACCESS_KEY_ID' from environment...
+*** WARNING - Setting 'AWS_USER_ID' from environment...
+---------------------------------------------
+mypicluster (security group: @sc-mypicluster)
+---------------------------------------------
+Launch time: 2015-06-25 20:08:06
+Uptime: 0 days, 00:03:14
+VPC: vpc-5e50513b
+Subnet: subnet-eb2f7f9c
+Zone: us-east-1a
+Keypair: starclusterKey
+EBS volumes: N/A
+Cluster nodes:
+     master running i-6a8657b9 ec2-54-152-2-72.compute-1.amazonaws.com
+    node001 running i-6b8657b8 ec2-52-5-71-60.compute-1.amazonaws.com
+Total nodes: 2
+
+----------------------------------------------
+----------------------------------------------
+Show any instances in us-east-1 and us-west-2:
+us-east-1
+INSTANCE	i-6b8657b8	us-east-1a	running	16	initializing	ok	active	
+SYSTEMSTATUS	reachability	passed	
+INSTANCESTATUS	reachability	initializing	
+INSTANCE	i-6a8657b9	us-east-1a	running	16	initializing	ok	active	
+SYSTEMSTATUS	reachability	passed	
+INSTANCESTATUS	reachability	initializing	
+us-west-2
+INSTANCE	i-1ad9692f	us-west-2a	running	16	ok	ok	active	
+SYSTEMSTATUS	reachability	passed	
+INSTANCESTATUS	reachability	passed	
+----------------------------------------------
+----------------------------------------------
+Put pi.py file onto cluster:
+StarCluster - (http://star.mit.edu/cluster) (v. 0.95.6)
+Software Tools for Academics and Researchers (STAR)
+Please submit bug reports to starcluster@mit.edu
+
+*** WARNING - Setting 'AWS_REGION_NAME' from environment...
+*** WARNING - Setting 'AWS_REGION_HOST' from environment...
+*** WARNING - Setting 'AWS_SECRET_ACCESS_KEY' from environment...
+*** WARNING - Setting 'AWS_ACCESS_KEY_ID' from environment...
+*** WARNING - Setting 'AWS_USER_ID' from environment...
+pi.sh   0% |                                        | ETA:  --:--:--   0.00 B/spi.sh 100% |||||||||||||||||||||||||||||||||||||||||| Time: 00:00:00   3.01 M/s
+----------------------------------------------
+----------------------------------------------
+Run Monte Carlo method pi.py on cluster using MPI:
+StarCluster - (http://star.mit.edu/cluster) (v. 0.95.6)
+Software Tools for Academics and Researchers (STAR)
+Please submit bug reports to starcluster@mit.edu
+
+*** WARNING - Setting 'AWS_REGION_NAME' from environment...
+*** WARNING - Setting 'AWS_REGION_HOST' from environment...
+*** WARNING - Setting 'AWS_SECRET_ACCESS_KEY' from environment...
+*** WARNING - Setting 'AWS_ACCESS_KEY_ID' from environment...
+*** WARNING - Setting 'AWS_USER_ID' from environment...
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+The authenticity of host 'ec2-54-152-2-72.compute-1.amazonaws.com (54.152.2.72)' can't be established.
+ECDSA key fingerprint is 36:95:3e:e7:ee:da:38:fe:03:e9:2a:4d:f5:d7:61:f2.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'ec2-54-152-2-72.compute-1.amazonaws.com,54.152.2.72' (ECDSA) to the list of known hosts.
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+          _                 _           _
+__/\_____| |_ __ _ _ __ ___| |_   _ ___| |_ ___ _ __
+\    / __| __/ _` | '__/ __| | | | / __| __/ _ \ '__|
+/_  _\__ \ || (_| | | | (__| | |_| \__ \ ||  __/ |
+  \/ |___/\__\__,_|_|  \___|_|\__,_|___/\__\___|_|
+
+StarCluster Ubuntu 13.04 AMI
+Software Tools for Academics and Researchers (STAR)
+Homepage: http://star.mit.edu/cluster
+Documentation: http://star.mit.edu/cluster/docs/latest
+Code: https://github.com/jtriley/StarCluster
+Mailing list: http://star.mit.edu/cluster/mailinglist.html
+
+This AMI Contains:
+
+  * NVIDIA Driver 331.38
+  * NVIDIA CUDA Toolkit 5.5.22
+  * PyCuda 2013.1.1 and PyOpenCL 2013.2
+  * MAGMA 1.4.1
+  * Intel Ethernet Driver 2.11.3 (ixgbevf)
+  * Open Grid Scheduler (OGS - formerly SGE) queuing system
+  * Condor workload management system
+  * OpenMPI compiled with Open Grid Scheduler support
+  * OpenBLAS - Highly optimized Basic Linear Algebra Routines
+  * NumPy/SciPy linked against OpenBlas
+  * Pandas - Data Analysis Library
+  * IPython 1.1.0 with parallel and notebook support
+  * Julia 0.3pre
+  * and more! (use 'dpkg -l' to show all installed packages)
+
+Open Grid Scheduler/Condor cheat sheet:
+
+  * qstat/condor_q - show status of batch jobs
+  * qhost/condor_status- show status of hosts, queues, and jobs
+  * qsub/condor_submit - submit batch jobs (e.g. qsub -cwd ./job.sh)
+  * qdel/condor_rm - delete batch jobs (e.g. qdel 7)
+  * qconf - configure Open Grid Scheduler system
+
+Current System Stats:
+
+  System load:  0.2               Processes:           98
+  Usage of /:   63.3% of 7.74GB   Users logged in:     0
+  Memory usage: 11%               IP address for eth0: 172.31.8.106
+  Swap usage:   0%
+
+    https://landscape.canonical.com/
+rm: cannot remove ‘pi.o*’: No such file or directory
+rm: cannot remove ‘pi.po*’: No such file or directory
+CLUSTER QUEUE                   CQLOAD   USED    RES  AVAIL  TOTAL aoACDS  cdsuE  
+--------------------------------------------------------------------------------
+all.q                             0.32      0      0      2      2      0      0 
+Your job 1 ("pi") has been submitted
+rm: cannot remove ‘STDIN.*’: No such file or directory
+CLUSTER QUEUE                   CQLOAD   USED    RES  AVAIL  TOTAL aoACDS  cdsuE  
+--------------------------------------------------------------------------------
+all.q                             0.32      0      0      2      2      0      0 
+Got 2 processors.
+3.14136333333
+cat: STDIN.*: No such file or directory
+----------------------------------------------
+----------------------------------------------
+Terminate cluster:
+----------------------------------------------
+----------------------------------------------
+Show any instances in us-east-1 and us-west-2:
+us-east-1
+INSTANCE	i-6b8657b8	us-east-1a	running	16	ok	ok	active	
+SYSTEMSTATUS	reachability	passed	
+INSTANCESTATUS	reachability	passed	
+INSTANCE	i-6a8657b9	us-east-1a	running	16	ok	ok	active	
+SYSTEMSTATUS	reachability	passed	
+INSTANCESTATUS	reachability	passed	
+us-west-2
+INSTANCE	i-1ad9692f	
