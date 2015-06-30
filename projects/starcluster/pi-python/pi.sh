@@ -1,4 +1,7 @@
 
+# Adapted from
+#   http://www.admin-magazine.com/HPC/Articles/StarCluster-Toolkit-Virtualization-Meets-HPC
+
 # nano pi.sh
 # qsub pi.sh
 
